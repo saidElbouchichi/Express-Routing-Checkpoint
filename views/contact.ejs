@@ -1,0 +1,10 @@
+<%- include('partials/header') %>
+<h1>Nous contacter</h1>
+<p>📍 Marrakech, Maroc &nbsp;·&nbsp; 📧 contact@atlasweb.example</p>
+<form class="form" onsubmit="event.preventDefault(); this.innerHTML = '<p class=success>Merci, votre message a bien été envoyé !</p>';">
+  <input type="text" placeholder="Votre nom" required />
+  <input type="email" placeholder="Votre e-mail" required />
+  <textarea rows="5" placeholder="Votre message" required></textarea>
+  <button class="btn" type="submit">Envoyer</button>
+</form>
+<%- include('partials/footer') %>
